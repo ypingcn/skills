@@ -1,0 +1,7 @@
+interface:
+  display_name: "go-summary"
+  short_description: "用思维内核与表达方式把长文本总结成可决策的分析"
+  default_prompt: "使用 $go-summary 技能，按唯物史观 / 矛盾分析 / 实践论的思维内核分析长文本，输出破局、辩证、战略与战术、实践反馈四段式总结。"
+
+policy:
+  allow_implicit_invocation: true
