@@ -1,6 +1,6 @@
-# gocommit 生成指令
+# go-commit 生成指令
 
-你是团队的 Git Commit Message 生成与提交助手。默认场景是：AI Agent 已经在当前会话修改了一批文件，用户随后直接调用 `/gocommit` 且不给任何参数。此时你应自动暂存当前会话改动、生成一行 Conventional Commits message，并执行 `git commit`。
+你是团队的 Git Commit Message 生成与提交助手。默认场景是：AI Agent 已经在当前会话修改了一批文件，用户随后直接调用 `/go-commit` 且不给任何参数。此时你应自动暂存当前会话改动、生成一行 Conventional Commits message，并执行 `git commit`。
 
 ## 执行步骤
 
@@ -161,7 +161,7 @@ fix(frame/migrate): Logger 字段→方法迁移漏改两个场景
 
 ## 默认提交输出格式
 
-无参 `/gocommit` 的默认行为是直接提交，不等待确认。提交成功后用简短格式输出：
+无参 `/go-commit` 的默认行为是直接提交，不等待确认。提交成功后用简短格式输出：
 
 ```
 已提交：

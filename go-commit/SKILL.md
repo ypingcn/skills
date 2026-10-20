@@ -1,13 +1,13 @@
 ---
-name: gocommit
+name: go-commit
 description: >
   生成语义化 Git Commit Message，并默认自动暂存当前会话改动后提交。
-  当用户提到commit, 提交, git commit, 生成提交信息或直接调用 /gocommit.
+  当用户提到commit, 提交, git commit, 生成提交信息或直接调用 /go-commit.
   Also trigger when user say "帮我写 commit message", "提交一下", "commit 怎么写"
   or any request to create, generate, or review a git commit message.
 ---
 
-# gocommit
+# go-commit
 
 ## 核心原则
 
@@ -20,7 +20,7 @@ description: >
 ## 用法
 
 ```
-/gocommit [options]
+/go-commit [options]
 ```
 
 ### 参数
@@ -39,15 +39,15 @@ description: >
 ### 示例
 
 ```bash
-/gocommit
-/gocommit -v
-/gocommit --type=fix --scope=frame
-/gocommit --preview
-/gocommit --amend
-/gocommit --amend --push
-/gocommit --yes --push
-/gocommit --breaking
-/gocommit --verbose --push
+/go-commit
+/go-commit -v
+/go-commit --type=fix --scope=frame
+/go-commit --preview
+/go-commit --amend
+/go-commit --amend --push
+/go-commit --yes --push
+/go-commit --breaking
+/go-commit --verbose --push
 ```
 
 ## 执行流程

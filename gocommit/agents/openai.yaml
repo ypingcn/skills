@@ -1,7 +1,0 @@
-interface:
-  display_name: "gocommit"
-  short_description: "生成中文语义化 Commit Message 并安全提交"
-  default_prompt: "Use $gocommit to stage current-session changes, generate a Chinese Conventional Commit message, and commit safely."
-
-policy:
-  allow_implicit_invocation: true
